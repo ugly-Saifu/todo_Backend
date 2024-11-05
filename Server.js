@@ -6,8 +6,8 @@ const routes = require('./routes/ToDoRoute');
 require('dotenv').config();
 
 const app = express();
-const PORT = process.env.PORT;
-const MONGODB_URL = process.env.MONGODB_URL;
+const PORT = 5000
+const MONGODB_URL=mongodb+srv://newuser123:new123@cluster0.3oqzl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 
 app.use(express.json());
 app.use(cors());
